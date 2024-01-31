@@ -1,0 +1,21 @@
+{
+    "extends": ["@rocketseat/eslint-config/react"],
+    "rules": {
+        "import/order": 
+    [
+        1, 
+        { 
+            "groups": 
+                [
+                    "external", 
+                    "builtin", 
+                    "internal", 
+                    "sibling", 
+                    "parent", 
+                    "index"
+                ]
+            } 
+        ],
+        "camelcase":"off"
+    }
+}
